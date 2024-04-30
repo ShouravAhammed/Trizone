@@ -19,4 +19,4 @@ Using ---------
 8. react-tooltip
 9. responsive-table-react
 10. Sweetalert2
-11. swiper
+11. swiper.js
