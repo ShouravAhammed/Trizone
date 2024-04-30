@@ -4,6 +4,7 @@ import Banner from '../../components/Banner/Banner';
 import Navbar from '../../components/Shared/Navbar/Navbar'
 import TouristSpotCard from '../../components/TouristSpotCard/TouristSpotCard';
 import { MdSubscriptions } from 'react-icons/md';
+import DownloadApps from '../../components/DownloadApps/DownloadApps';
 
 const Home = () => {
     const touristSpots = useLoaderData();
@@ -57,7 +58,7 @@ const Home = () => {
                 </div>       
           </div>
           
-          
+          <DownloadApps></DownloadApps>
         </div>
     );
 };
