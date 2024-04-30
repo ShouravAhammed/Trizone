@@ -28,7 +28,7 @@ const AddTouristSpot = () => {
     console.log(placeInfo);
 
 
-    fetch('http://localhost:5000/addPlaces', {
+    fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/addPlaces', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'

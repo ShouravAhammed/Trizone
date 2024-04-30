@@ -73,7 +73,7 @@ const Register = () => {
         const userContent = {email, creationTime} 
 
         // fetch start
-        fetch('http://localhost:5000/users', {
+        fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/users', {
           method: 'POST',
           headers: {
             'content-type': 'application/json'

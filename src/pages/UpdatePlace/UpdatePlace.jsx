@@ -10,7 +10,7 @@ const UpdatePlace = () => {
     const [places, setPlaces] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/place/${id}`)
+        fetch(`https://assignment-10-tmw-southeast-asia-server.vercel.app/place/${id}`)
         .then(res => res.json())
         .then(data => {
             console.log(data);
@@ -30,7 +30,7 @@ const UpdatePlace = () => {
     const updateInfo = {touristPlaceName, countryName, travelTime, averageCost}
     console.log(updateInfo);
 
-    fetch(`http://localhost:5000/updatePlace/${id}`, {
+    fetch(`https://assignment-10-tmw-southeast-asia-server.vercel.app/updatePlace/${id}`, {
         method: 'PUT',
         headers: {
             'content-type': 'application/json'

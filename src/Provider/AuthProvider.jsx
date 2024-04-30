@@ -40,7 +40,7 @@ const AuthProvider = ({children}) => {
             const lastLoginTime = userResult?.metadata?.lastSignInTime
             const userContent = {email, creationTime, lastLoginTime} 
 
-            fetch('http://localhost:5000/users', {
+            fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/users', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
@@ -75,7 +75,7 @@ const AuthProvider = ({children}) => {
             const lastLoginTime = userResult?.metadata?.lastSignInTime
             const userContent = {email, creationTime, lastLoginTime} 
 
-            fetch('http://localhost:5000/users', {
+            fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/users', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

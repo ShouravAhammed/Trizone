@@ -23,7 +23,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
       {
           path: '/',
           element: <Home></Home>,
-          loader: () => fetch('http://localhost:5000/touristSpots')
+          loader: () => fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/touristSpots')
       },
       {
           path: '/login',
@@ -40,7 +40,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
       {
         path: '/allTouristSpot',
         element: <AllTouristSpot></AllTouristSpot>,
-        loader: () => fetch('http://localhost:5000/touristSpots')
+        loader: () => fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/touristSpots')
       },
       {
         path: '/addTouristSpot',

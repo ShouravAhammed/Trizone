@@ -54,7 +54,7 @@ const Login = () => {
 
       // fetch data
 
-      fetch('http://localhost:5000/users', {
+      fetch('https://assignment-10-tmw-southeast-asia-server.vercel.app/users', {
         method: 'PATCH',
         headers: {
           'content-type': 'application/json'

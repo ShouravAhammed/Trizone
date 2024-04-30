@@ -10,7 +10,7 @@ const ViewDetails = () => {
     const [details, setDetails] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/viewDetails/${id}`)
+        fetch(`https://assignment-10-tmw-southeast-asia-server.vercel.app/viewDetails/${id}`)
         .then(res => res.json())
         .then(data => {
             console.log(data);
