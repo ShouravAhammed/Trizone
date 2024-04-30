@@ -9,14 +9,14 @@ Currently, two official plugins are available:
 
 - 
 Using ---------
-- match-sorter
-  prop-types
-  react-icons
-  react-simple-typewriter
-  react-super-responsive-table
-  react-sweetalert2
-  react-toastify
-  react-tooltip
-  responsive-table-react
-  Sweetalert2
-  swiper
+1 . match-sorter
+2. prop-types
+3. react-icons
+4. react-simple-typewriter
+5. react-super-responsive-table
+6. react-sweetalert2
+7. react-toastify
+8. react-tooltip
+9. responsive-table-react
+10. Sweetalert2
+11. swiper
